@@ -1,0 +1,14 @@
+.conteiner {
+    flex-direction: column;
+    height: auto;
+}
+h1 {
+    font-size: 3em;
+}
+#heart {
+    width: 70%;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+.hidden {
+    display: none !important; /* Різке зникнення */
+}

@@ -1,0 +1,22 @@
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 60vh;
+}
+h1 {
+    font-size: 5em;
+}
+#footer {
+    display: none;
+}
+#heart{
+    width: 40%;
+    height: 90%;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.hidden {
+    display: none !important; /* Різке зникнення */
+}
